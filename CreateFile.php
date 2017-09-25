@@ -1,6 +1,6 @@
 <?php
  
-include('CreateSessionQB.php');
+include('CreateSession.php');
  
 $session = createSession(62574, 'g75gqk5g4SP9AbU', '8-wKH4ZZhWCQBmq', 'akshat@gmail.com', 'password');
 $token = $session->token;
